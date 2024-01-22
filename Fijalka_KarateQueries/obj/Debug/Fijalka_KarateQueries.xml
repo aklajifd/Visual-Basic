@@ -1,0 +1,546 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Fijalka_KarateQueries
+</name>
+</assembly>
+<members>
+<member name="T:Fijalka_KarateQueries.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Fijalka_KarateQueries.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Fijalka_KarateQueries.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateMemberPhoneNumbers">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateMemberPhoneNumbers.MembersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateMemberPhoneNumbers.MembersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateMemberPhoneNumbers.MembersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateMemberPhoneNumbersTableAdapters.MembersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateMemberPhoneNumbersTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Fijalka_KarateQueries.KarateMemberPhoneNumbersTableAdapters.TableAdapterManager.UpdateUpdatedRows(Fijalka_KarateQueries.KarateMemberPhoneNumbers,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Fijalka_KarateQueries.KarateMemberPhoneNumbersTableAdapters.TableAdapterManager.UpdateInsertedRows(Fijalka_KarateQueries.KarateMemberPhoneNumbers,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Fijalka_KarateQueries.KarateMemberPhoneNumbersTableAdapters.TableAdapterManager.UpdateDeletedRows(Fijalka_KarateQueries.KarateMemberPhoneNumbers,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Fijalka_KarateQueries.KarateMemberPhoneNumbersTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Fijalka_KarateQueries.KarateMemberPhoneNumbersTableAdapters.TableAdapterManager.UpdateAll(Fijalka_KarateQueries.KarateMemberPhoneNumbers)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateMemberPhoneNumbersTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateMemberPhoneNumbersTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateMembersPayments">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateMembersPayments.PaymentsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateMembersPayments.PaymentsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateMembersPayments.PaymentsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateMembersPaymentsTableAdapters.PaymentsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateMembersPaymentsTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Fijalka_KarateQueries.KarateMembersPaymentsTableAdapters.TableAdapterManager.UpdateUpdatedRows(Fijalka_KarateQueries.KarateMembersPayments,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Fijalka_KarateQueries.KarateMembersPaymentsTableAdapters.TableAdapterManager.UpdateInsertedRows(Fijalka_KarateQueries.KarateMembersPayments,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Fijalka_KarateQueries.KarateMembersPaymentsTableAdapters.TableAdapterManager.UpdateDeletedRows(Fijalka_KarateQueries.KarateMembersPayments,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Fijalka_KarateQueries.KarateMembersPaymentsTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Fijalka_KarateQueries.KarateMembersPaymentsTableAdapters.TableAdapterManager.UpdateAll(Fijalka_KarateQueries.KarateMembersPayments)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateMembersPaymentsTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateMembersPaymentsTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateMembersSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateMembersSet1.MembersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateMembersSet1.MembersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateMembersSet1.MembersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateMembersSet1TableAdapters.MembersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateMembersSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Fijalka_KarateQueries.KarateMembersSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Fijalka_KarateQueries.KarateMembersSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Fijalka_KarateQueries.KarateMembersSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Fijalka_KarateQueries.KarateMembersSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Fijalka_KarateQueries.KarateMembersSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Fijalka_KarateQueries.KarateMembersSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Fijalka_KarateQueries.KarateMembersSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Fijalka_KarateQueries.KarateMembersSet1TableAdapters.TableAdapterManager.UpdateAll(Fijalka_KarateQueries.KarateMembersSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateMembersSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateMembersSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateMembersSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateMembersSet2.MembersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateMembersSet2.MembersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateMembersSet2.MembersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateMembersSet2TableAdapters.MembersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateMembersSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Fijalka_KarateQueries.KarateMembersSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(Fijalka_KarateQueries.KarateMembersSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Fijalka_KarateQueries.KarateMembersSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(Fijalka_KarateQueries.KarateMembersSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Fijalka_KarateQueries.KarateMembersSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(Fijalka_KarateQueries.KarateMembersSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Fijalka_KarateQueries.KarateMembersSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Fijalka_KarateQueries.KarateMembersSet2TableAdapters.TableAdapterManager.UpdateAll(Fijalka_KarateQueries.KarateMembersSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateMembersSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateMembersSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateModifyMemberPayments">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateModifyMemberPayments.MembersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateModifyMemberPayments.MembersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateModifyMemberPayments.MembersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateModifyMemberPaymentsTableAdapters.MembersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateModifyMemberPaymentsTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Fijalka_KarateQueries.KarateModifyMemberPaymentsTableAdapters.TableAdapterManager.UpdateUpdatedRows(Fijalka_KarateQueries.KarateModifyMemberPayments,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Fijalka_KarateQueries.KarateModifyMemberPaymentsTableAdapters.TableAdapterManager.UpdateInsertedRows(Fijalka_KarateQueries.KarateModifyMemberPayments,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Fijalka_KarateQueries.KarateModifyMemberPaymentsTableAdapters.TableAdapterManager.UpdateDeletedRows(Fijalka_KarateQueries.KarateModifyMemberPayments,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Fijalka_KarateQueries.KarateModifyMemberPaymentsTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Fijalka_KarateQueries.KarateModifyMemberPaymentsTableAdapters.TableAdapterManager.UpdateAll(Fijalka_KarateQueries.KarateModifyMemberPayments)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateModifyMemberPaymentsTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateModifyMemberPaymentsTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateModifyPayments">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateModifyPayments.PaymentsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateModifyPayments.PaymentsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateModifyPayments.PaymentsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateModifyPaymentsTableAdapters.PaymentsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateModifyPaymentsTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Fijalka_KarateQueries.KarateModifyPaymentsTableAdapters.TableAdapterManager.UpdateUpdatedRows(Fijalka_KarateQueries.KarateModifyPayments,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Fijalka_KarateQueries.KarateModifyPaymentsTableAdapters.TableAdapterManager.UpdateInsertedRows(Fijalka_KarateQueries.KarateModifyPayments,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Fijalka_KarateQueries.KarateModifyPaymentsTableAdapters.TableAdapterManager.UpdateDeletedRows(Fijalka_KarateQueries.KarateModifyPayments,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Fijalka_KarateQueries.KarateModifyPaymentsTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Fijalka_KarateQueries.KarateModifyPaymentsTableAdapters.TableAdapterManager.UpdateAll(Fijalka_KarateQueries.KarateModifyPayments)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateModifyPaymentsTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateModifyPaymentsTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateSingleMemberAmount">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateSingleMemberAmount.PaymentsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateSingleMemberAmount.PaymentsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateSingleMemberAmount.PaymentsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateSingleMemberAmountTableAdapters.PaymentsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateSingleMemberAmountTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Fijalka_KarateQueries.KarateSingleMemberAmountTableAdapters.TableAdapterManager.UpdateUpdatedRows(Fijalka_KarateQueries.KarateSingleMemberAmount,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Fijalka_KarateQueries.KarateSingleMemberAmountTableAdapters.TableAdapterManager.UpdateInsertedRows(Fijalka_KarateQueries.KarateSingleMemberAmount,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Fijalka_KarateQueries.KarateSingleMemberAmountTableAdapters.TableAdapterManager.UpdateDeletedRows(Fijalka_KarateQueries.KarateSingleMemberAmount,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Fijalka_KarateQueries.KarateSingleMemberAmountTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Fijalka_KarateQueries.KarateSingleMemberAmountTableAdapters.TableAdapterManager.UpdateAll(Fijalka_KarateQueries.KarateSingleMemberAmount)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateSingleMemberAmountTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateSingleMemberAmountTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateSingleMemberPayments">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateSingleMemberPayments.MembersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateSingleMemberPayments.MembersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateSingleMemberPayments.MembersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateSingleMemberPaymentsTableAdapters.MembersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateSingleMemberPaymentsTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Fijalka_KarateQueries.KarateSingleMemberPaymentsTableAdapters.TableAdapterManager.UpdateUpdatedRows(Fijalka_KarateQueries.KarateSingleMemberPayments,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Fijalka_KarateQueries.KarateSingleMemberPaymentsTableAdapters.TableAdapterManager.UpdateInsertedRows(Fijalka_KarateQueries.KarateSingleMemberPayments,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Fijalka_KarateQueries.KarateSingleMemberPaymentsTableAdapters.TableAdapterManager.UpdateDeletedRows(Fijalka_KarateQueries.KarateSingleMemberPayments,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Fijalka_KarateQueries.KarateSingleMemberPaymentsTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Fijalka_KarateQueries.KarateSingleMemberPaymentsTableAdapters.TableAdapterManager.UpdateAll(Fijalka_KarateQueries.KarateSingleMemberPayments)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateSingleMemberPaymentsTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Fijalka_KarateQueries.KarateSingleMemberPaymentsTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
