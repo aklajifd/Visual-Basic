@@ -13,7 +13,7 @@ My academic assignments and projects I created using VB.NET are housed here.
 <h4>Assignment 5: Karate</h4>
   - This program utilizes a database and displays information about karate school members. DataGridView Controls, Data-Bound Controls, SQL querying included in this app.
 <h4>Assignment 6: Sales Staff</h4>
-  - An ASP.Net application utilizing web sever and validator controls. Interactive forms with basic CRUD operations are implemented with this database-driven web app.
+  - An ASP.Net application utilizing web sever and validator controls to display sales staff information. Interactive forms with basic CRUD operations are implemented with this database-driven web app.
 <h4>Assignment 7: Cash Register</h4>
   - This application acts as a simple cash register for a retail store. It includes a form offering the choices to add, update, or display inventory items. The application opens, reads 
     from, writes to, and closes text files. Project includes object-oriented programming techniques with objects, classes, and collections.
